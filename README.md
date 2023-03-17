@@ -11,3 +11,9 @@ Following this link: https://forums.mbed.com/t/new-beta-firmware-for-lpc1768/189
 **> driver version as 10.0.19041.746 dated 06/2006 with the driver provider as Microsoft**
 
 It would seem that the firmware update also updates the windows driver though this would suggest that with the use of each new PC/Laptop you will need to carry out the firmware update again and again to update the driver regardless if your using the same LPC device. This is a little fustrating as I would of expected the relevant windows drivers to be updated when carrying out actions such as updating MBED studios, or even installing/re-installing studios.
+
+
+How to update the LPC1768
+=========================
+1. Download the .if file then drag and drop it onto the LPC1768 in file explorer.
+2. Power cycle the LPC1768, when power is reconnected it may take a few seconds to register as it updates.
